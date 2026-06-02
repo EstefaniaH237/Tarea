@@ -1,0 +1,98 @@
+body {
+    background-image: url('../img/fondo3.avif'); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+}
+
+.contenedor-img-juego {
+    display: flex;
+    align-items: center;    
+    justify-content: center;   
+    padding: 15px;             
+    height: 100%;              
+}
+
+.img-juego {
+    width: 100%;               
+    max-width: 350px;         
+    max-height: 350px;        
+    object-fit: contain;       
+    border-radius: 8px;        
+}
+
+.titulo {
+    color: rgb(150, 40, 158);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nj {
+    color: #8f0c9d;       
+    font-weight: bold;    
+    margin-bottom: 12px;  
+}
+
+.textore {
+    font-size: 0.875rem;  
+    color: #d48080;       
+    margin-bottom: 8px;   
+}
+
+
+.textore:last-of-type {
+    color: rgba(47, 158, 222, 0.6); 
+    margin-bottom: 0;                
+}
+
+
+.contenedor-fav {
+    background-color: rgba(33, 37, 41, 0.85);
+    border: 2px solid #0dcaf0;                
+    border-radius: 16px;                      
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(13, 202, 240, 0.15); 
+}
+
+.titulo-seccion-fav {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.titulo-fav {
+    color: #ffffff;
+    font-size: 2.5rem;     
+    font-weight: 800;       
+    margin-bottom: 5px;
+}
+
+.subtitulo-fav {
+    display: inline-block;
+    color: #0dcaf0;          
+    font-size: 0.9rem;
+    text-transform: uppercase; 
+    letter-spacing: 2px;     
+    margin-bottom: 20px;
+}
+
+.texto-fav {
+    color: rgba(215, 108, 108, 0.9);
+    font-size: 1.1rem;                
+    line-height: 1.6;                 
+}
+
+.video-contenedor-fav {
+    border-radius: 12px;
+    overflow: hidden;                 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}

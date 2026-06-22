@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador Fechas</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2> Validar Fechas</h2>
+        
+        <form>
+            <label>Fecha de Inicio:</label>
+            <input type="date" id="fechaInicio">
+            
+            <label>Fecha de Cierre:</label>
+            <input type="date" id="fechaCierre">
+            
+            <br><br>
+            <button type="button" onclick="verificarFechas()">Verificar</button>
+            <button type="button" onclick="limpiarFechas()">Limpiar</button>
+        </form>
+        
+        <div id="resultado"></div>
+    </div>
+    
+    <script src="js/validador2.js"></script>
+</body>
+</html>

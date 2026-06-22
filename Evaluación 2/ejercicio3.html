@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificador CSS</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2> Modificar CSS</h2>
+        
+        <div id="caja" class="caja-ejemplo">
+            <p>Usa los botones para modificar</p>
+            <p>Haz clic en mí para ver info</p>
+        </div>
+        
+        <div class="botonera">
+            <button onclick="cambiarColor('red')">Rojo</button>
+            <button onclick="cambiarColor('green')">Verde</button>
+            <button onclick="cambiarColor('blue')">Azul</button>
+            <button onclick="cambiarColor('yellow')">Amarillo</button>
+            
+            <button onclick="cambiarTamanio('pequeno')">Pequeño</button>
+            <button onclick="cambiarTamanio('mediano')">Mediano</button>
+            <button onclick="cambiarTamanio('grande')">Grande</button>
+            
+            <button onclick="cambiarBorde()">Cambiar Borde</button>
+            
+            <button onclick="mostrarGato()"> Mostrar Gato</button>
+            <button onclick="ocultarGato()">Ocultar</button>
+            
+            <button onclick="resetearTodo()" style="background:#e74c3c;color:white;font-weight:bold;">🔄 Resetear</button>
+        </div>
+        
+        <div id="imagenGato" style="display:none; text-align:center; margin-top:15px;">
+            <img src="img/gato.jpg" width="200" style="border-radius:10px;border:3px solid #ddd;">
+        </div>
+    </div>
+    
+    <script src="js/validador3.js"></script>
+</body>
+</html>

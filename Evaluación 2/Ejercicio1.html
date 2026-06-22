@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador Formulario</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2> Validar Formulario</h2>
+        
+        <form id="miFormulario">
+            <label>Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            
+            <label>Correo:</label>
+            <input type="text" id="correo" placeholder="Escribe tu correo">
+            
+            <label>Nivel de Estudios:</label>
+            <select id="estudios">
+                <option value="">-- Selecciona --</option>
+                <option value="basica">Básica</option>
+                <option value="media">Media</option>
+                <option value="universitaria">Universitaria</option>
+            </select>
+            
+            <label>Medios de contacto:</label><br>
+            <input type="checkbox" id="chkEmail"> Email
+            <input type="checkbox" id="chkTelefono"> Teléfono
+            <input type="checkbox" id="chkWhatsapp"> WhatsApp
+            
+            <br><br>
+            <button type="button" onclick="validar()">Validar</button>
+            <button type="button" onclick="limpiarTodo()">Limpiar</button>
+        </form>
+        
+        <div id="mensaje"></div>
+    </div>
+    
+    <script src="js/validador1.js"></script>
+</body>
+</html>
